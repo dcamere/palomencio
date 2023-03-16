@@ -1,0 +1,33 @@
+.product {
+    border: 1px black solid;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    &__title {
+
+    }
+
+    &__price {
+        &::before {
+            content: 'S/'
+        }
+    }
+
+    &__image {
+
+    }
+
+    &__quantity {
+        max-width: 30px;
+    }
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}

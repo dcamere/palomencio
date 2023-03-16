@@ -1,0 +1,29 @@
+.product {
+  border: 1px black solid;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 25%;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.product__price::before {
+  content: "S/";
+}
+.product__quantity {
+  max-width: 30px;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
