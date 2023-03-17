@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>E-commerce Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>E-commerce Page</h1>
+    </header>
+    <main>
+      <div class="product">
+        <h2>Product Name</h2>
+        <p>$10 per unit</p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+        <button id="add-to-cart">Add to cart</button>
+      </div>
+      <div class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-list"></ul>
+        <p>Total price: $<span id="total-price">0</span></p>
+        <button id="clear-cart">Clear cart</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

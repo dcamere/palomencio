@@ -1,0 +1,41 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: sans-serif;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #444;
+}
+
+.product h2, .product p, .product label, .product input, .product button {
+  color: dark grey;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #444;
+}
+
+#cart-list li {
+  margin-bottom: 10px;
+}
+
+#clear-cart {
+  display: block;
+  margin-top: 10px;
+}
+
+#total-price {
+  font-weight: bold;
+}
